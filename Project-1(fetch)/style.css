@@ -1,0 +1,51 @@
+nav{
+    background-color: black;
+    color: azure;
+    line-height: 3em;
+    padding: 1 em;
+    padding-left: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3rem;
+}
+
+button{
+    border: none;
+    margin: 10px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #099f4e;
+    padding: 20px;
+    border-radius: 5px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+.card-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.column{
+    margin: 12px;
+    width: 30%;
+    float: left;
+}
+
+.card-title{
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 16px;
+    background-color: #f1f1f1;
+}
+
+.card-body{
+    padding: 26px;
+    background: rgb(211, 255, 173);
+}
